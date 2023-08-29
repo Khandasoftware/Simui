@@ -1,0 +1,4 @@
+.vscode/
+sftp-config.json
+git rm --cached ./vscode
+git rm --cached sftp-config.json
