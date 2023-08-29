@@ -39,5 +39,21 @@ One of the most powerful features of this package is the ability to add a custom
 </style>
 <div data-info="max-767px#blue.min-768px#yellow" style="height: 250px;" class="yellow"></div>
 
+## Example #2: Adding a Yellow Background for Desktop Devices Only
+
+1. Define a CSS class named 'yellow' with the `background-color: yellow;` property.
+2. Add the class names for different devices using the format `.min-768px#yellow`.
+3. Update the `data-info` attribute to include both class names: `max-767px#blue.min-768px#yellow`.
+4. The final result should look like this: `<div data-info="max-767px#blue.min-768px#yellow"></div>`
+
+```html
+<style type="text/css">
+.yellow {
+   background-color: yellow;
+}
+</style>
+<div data-info="max-767px#blue.min-768px#yellow" style="height: 250px;" class="yellow"></div>
+
+
 
 
